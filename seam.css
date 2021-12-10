@@ -1,0 +1,57 @@
+.player-info{
+   border: 2px solid black;
+   padding: 15px;
+   height: 200px;
+    overflow: auto;
+    background-color: rgb(43, 79, 106);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #777; 
+ }
+
+  .player-info:hover{
+   background: rgba(43, 79, 106, 0.7);
+   transition:  500ms linear 1s ;
+   border-radius: 10px;
+
+  }
+  #Massi h3,#Rolando h3 {
+   text-shadow:  2px 2px 5px #888 ;    
+  }
+  #Massi img,#Rolando img{
+   transition: all 600ms; 
+  }
+
+  #Massi img:hover,#Rolando img:hover{
+  transform:scale(1.5);
+  }
+#header p {
+   color: red;
+}
+a:visited {
+     color: green;
+}
+a:hover{
+   color: black;
+}
+ a {
+   text-decoration: none;
+ }
+h2,h3{
+   font-family: arial, sans-serif;
+}
+ #voding-from {
+   margin-left: 20px;
+ } 
+  p {
+   font-family: 'Roboto', serif;
+ }
+
+ .higlight{
+   background: black;
+   color: white;
+ }
+
+
+
+
